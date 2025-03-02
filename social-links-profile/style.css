@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #141414;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Card Styling */
+.card {
+  background: #1F1F1F;
+  width: 320px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Image */
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Name & Location */
+.name {
+  color: #FFF;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.location {
+  color: #B7FC43;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Bio */
+.bio {
+  color: #ccc;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+/* Hover Effects */
+.btn:hover {
+  color: black;
+  background: #B7FC43;
+  transform: translateY(-2px);
+}

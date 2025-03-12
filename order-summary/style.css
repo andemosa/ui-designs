@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-header img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h2 {
+  font-size: 24px;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.card-body p {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.plan img {
+  width: 40px;
+}
+
+.plan div {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.plan h4 {
+  display: block;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+  margin: 0;
+}
+
+.plan p {
+  margin: 0;
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  background: none;
+  border: none;
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.change:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.btn {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(101, 88, 245, 0.2);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.cancel {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+
+@media (max-width: 600px) {
+  .card-body h2 {
+    font-size: 20px;
+  }
+}
